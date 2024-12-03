@@ -95,4 +95,52 @@ video {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+  text-align: center;
+  padding-top: 16%;
+}
+
+.bouton {
+  display: inline-flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #551c51;
+  background: rgba(255, 255, 255, 0.4);
+  color: #551c51;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.animation-langue {
+  width: 31px;
+  height: 65px;
+  flex-shrink: 0;
+  background-color: #551c51;
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-align: center;
+  animation-duration: 2s;
+}
+
+@keyframes opacity {
+  50% {
+    opacity: 0;
+  }
 }
