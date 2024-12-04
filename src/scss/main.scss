@@ -185,7 +185,7 @@ video {
 .bouton-vin {
   display: flex;
   width: 119px;
-  padding: 10px 25px;
+
   justify-content: center;
   align-items: center;
   border-radius: 70px;
@@ -226,7 +226,7 @@ video {
   display: flex;
   width: 166px;
   height: 41px;
-  padding: 10px 25px;
+
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
@@ -239,6 +239,48 @@ video {
   margin-left: 8%;
 }
 
-.img-witdh {
-  max-width: 100%;
+.titre-vigneronne {
+  color: #551c51;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #551c51;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.texte-vigneronne {
+  color: #3d4335;
+  text-align: justify;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bouton-vigneronne {
+  color: #bd972d;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  display: inline-flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #bd972d;
+  background: rgba(189, 151, 45, 0.2);
+  margin-top: 80%;
+  margin-left: 8%;
 }
