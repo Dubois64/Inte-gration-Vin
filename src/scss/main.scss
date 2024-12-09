@@ -200,6 +200,7 @@ video {
 .pattern-img {
   position: absolute;
   z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
 }
 
 .philosophie {
@@ -497,4 +498,8 @@ video {
 
 .vente-degustation {
   padding-left: 20%;
+}
+
+.vin-img {
+  max-width: 100%;
 }
