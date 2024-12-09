@@ -344,10 +344,12 @@ video {
 
 .logos-adresses {
   display: flex;
+  align-items: baseline;
 }
 
 .logo-gault {
-  max-width: 100%;
+  max-width: 70%;
+  padding-top: 10%;
 }
 
 .texte-grisé-footer {
@@ -489,6 +491,10 @@ video {
 }
 
 .underline-footer {
-  border: #c29076;
-  height: 100px;
+  border: 1px solid #c29076;
+  width: 100%;
+}
+
+.vente-degustation {
+  padding-left: 20%;
 }
