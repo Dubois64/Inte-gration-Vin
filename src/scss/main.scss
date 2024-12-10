@@ -12,11 +12,10 @@
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
 
-​ * {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background: #fff;
 }
 
 a {
@@ -114,8 +113,6 @@ video {
   font-style: normal;
   font-weight: 400;
   line-height: 16px; /* 100% */
-  margin-left: 40%;
-  margin-right: 40%;
 }
 
 .animation-langue {
@@ -137,6 +134,8 @@ video {
   text-underline-position: from-font;
   text-align: center;
   animation-duration: 2s;
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes opacity {
@@ -157,20 +156,16 @@ video {
 }
 
 .Vin-détails {
-  width: 260px;
-  height: 32px;
   color: #000;
   text-align: center;
   font-family: "Adelle Sans Devanagari";
   font-size: 21px;
-  padding-left: 8%;
 }
 
 .infos-lumière-de-terroir {
   display: inline-flex;
   align-items: center;
-  width: 37px;
-  height: 32px;
+
   color: #000;
   text-align: center;
   font-family: "Adelle Sans Devanagari";
@@ -179,21 +174,20 @@ video {
   font-weight: 300;
   line-height: normal;
   gap: 15px;
-  padding-left: 25%;
 }
 
 .bouton-vin {
   display: flex;
   width: 119px;
-
   justify-content: center;
   align-items: center;
   border-radius: 70px;
   border: 1px solid #551c51;
   background: rgba(85, 28, 81, 0.2);
   font-family: "Adelle Sans Devanagari";
-  margin-top: 80%;
-  margin-left: 8%;
+  margin-top: 60%;
+  margin-left: 50%;
+  margin-right: 50%;
   color: #551c51;
 }
 
@@ -240,6 +234,10 @@ video {
   margin-left: 8%;
 }
 
+.card-vigneronne {
+  background-color: white;
+}
+
 .titre-vigneronne {
   color: #551c51;
   text-align: center;
@@ -248,13 +246,7 @@ video {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  color: #551c51;
-  text-align: center;
-  font-family: "Adelle Sans Devanagari";
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
+  margin: 10%;
 }
 
 .texte-vigneronne {
@@ -262,29 +254,24 @@ video {
   text-align: justify;
   font-family: "Adelle Sans Devanagari";
   font-size: 15px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 10%;
 }
 
 .bouton-vigneronne {
   color: #bd972d;
-  text-align: center;
   font-family: "Adelle Sans Devanagari";
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 16px; /* 100% */
-  display: inline-flex;
+  line-height: 16px;
   padding: 10px 25px;
-  justify-content: center;
-  align-items: center;
   border-radius: 70px;
   border: 1px solid #bd972d;
   background: rgba(189, 151, 45, 0.2);
-  margin-top: 80%;
-  margin-left: 8%;
+  text-align: center;
   align-items: center;
+  justify-content: center;
+  display: inline-flex;
 }
 
 .logo-footer {
@@ -502,4 +489,30 @@ video {
 
 .vin-img {
   max-width: 100%;
+}
+
+.intro {
+  background-image: url(/images/image-background.jpg);
+  background-size: cover;
+  aspect-ratio: 32/13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.pattern-background-ligne-img {
+  background-image: url(/images/background-pattern.png);
+  background-size: cover;
+  aspect-ratio: 35/13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.img-pattern-fond {
+  background-image: url(/images/background-pattern.png);
 }
