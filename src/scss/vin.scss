@@ -154,6 +154,14 @@ video {
   gap: 1%;
 }
 
+.titre-vin {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
 .fil-txt-fin {
   color: #000;
   font-family: "Adelle Sans Devanagari";
@@ -190,12 +198,83 @@ video {
   text-align: justify;
   font-family: "Adelle Sans Devanagari";
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .flex-txt-gras-fin {
   display: flex;
-  gap: 60%;
+  gap: 50%;
+}
+
+.underline {
+  background-color: #000;
+  height: 1px;
+  margin-bottom: 10%;
+}
+
+.type-de-vin {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+}
+
+.bouton-commander {
+  display: flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #c29076;
+  background: #fff;
+  color: #c29076;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  margin-top: 10%;
+}
+
+.degustation {
+  background-image: url(/images/img-background-degustation.png);
+  background-size: cover;
+  aspect-ratio: 32/13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.titre-card-degustation {
+  color: #3d4335;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.txt-degustation {
+  color: #3d4335;
+  text-align: justify;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10%;
+  align-self: stretch;
+}
+
+.bouton-degustation {
+  display: flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #551c51;
+  background: #fff;
+  color: #551c51;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
 }
