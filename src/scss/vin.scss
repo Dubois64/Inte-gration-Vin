@@ -278,3 +278,212 @@ video {
   font-family: "Adelle Sans Devanagari";
   font-size: 16px;
 }
+
+.logo-footer {
+  max-width: 60%;
+}
+
+.information-contact-titre {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.underline {
+  background-color: #000;
+  height: 1px;
+}
+
+.sous-titre {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sous-sous-titre {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.infos-footer {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lien-localiser {
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.logos-adresses {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-gault {
+  max-width: 70%;
+  padding-top: 10%;
+}
+
+.texte-grisé-footer {
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conditions-general-underline {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.ligne-texte-2024 {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.droit-ligne-grisé {
+  color: #b9b7b1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.autorisations-ligne-vigne {
+  display: flex;
+  gap: 2%;
+}
+
+.condition-general-vente {
+  color: #b9b7b1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.newsletter-grisé {
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bouton-mail-inscription {
+  display: flex;
+}
+.mail {
+  display: flex;
+  width: 141px;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b9b7b1;
+  color: #b9b7b1;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+
+.inscription {
+  display: flex;
+  width: 135px;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 70px 70px 0px;
+  background: #551c51;
+  color: #fff;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+
+.logos-reseaux {
+  display: flex;
+  gap: 20%;
+  max-width: 12%;
+}
+
+.chiffres {
+  color: #fff;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  border-radius: 70px;
+  background: #b9b7b1;
+  display: flex;
+  width: 140px;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-numeros {
+  display: flex;
+  gap: 25%;
+}
+
+.footer {
+  background: #fff;
+}
+
+.underline-footer {
+  border: 1px solid #c29076;
+  width: 100%;
+}
