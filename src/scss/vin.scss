@@ -148,3 +148,54 @@ video {
 .row {
   justify-content: center;
 }
+
+.flex-fil-ariane {
+  display: flex;
+  gap: 1%;
+}
+
+.fil-txt-fin {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  gap: 1%;
+}
+
+.fil-txt-gras {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.fil-ariane {
+  border-radius: 32px;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.txt-gras-infos {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.txt-fin-infos {
+  color: #000;
+  text-align: justify;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.flex-txt-gras-fin {
+  display: flex;
+  gap: 60%;
+}
