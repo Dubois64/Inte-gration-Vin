@@ -472,3 +472,56 @@ video {
   gap: 22px;
   height: 567px;
 }
+
+.titre-vin {
+  width: 321px;
+  color: #551c51;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Vin-détails {
+  color: #000;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 21px;
+}
+
+.infos-lumière-de-terroir {
+  display: inline-flex;
+  align-items: center;
+
+  color: #000;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  gap: 15px;
+}
+
+.bouton-vin {
+  display: flex;
+  width: 119px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #551c51;
+  background: rgba(85, 28, 81, 0.2);
+  font-family: "Adelle Sans Devanagari";
+  margin-top: 60%;
+  margin-left: 50%;
+  margin-right: 50%;
+  color: #551c51;
+}
+
+.pattern-img {
+  position: absolute;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.2);
+}
