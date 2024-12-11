@@ -1,0 +1,492 @@
+@import "bootstrap/scss/bootstrap-grid";
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+​ * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+.menu-1 {
+  display: flex;
+  width: 354px;
+  height: 28px;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+  color: #551c51;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.menu-2 {
+  display: flex;
+  align-items: center;
+  gap: 17px;
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.header {
+  display: flex;
+  width: 1116px;
+  height: 190px;
+  padding: 64px 0px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.titre {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0px 10px 4px rgba(255, 255, 255, 0.2);
+  font-family: "Adelle Sans Devanagari";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo {
+  max-width: 30%;
+}
+
+.flex-logo-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.menu-langue {
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-align: center;
+  padding-top: 16%;
+}
+
+.bouton {
+  display: inline-flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #551c51;
+  background: rgba(255, 255, 255, 0.4);
+  color: #551c51;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.animation-langue {
+  width: 31px;
+  height: 65px;
+  flex-shrink: 0;
+  background-color: #551c51;
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  text-align: center;
+  animation-duration: 2s;
+}
+
+@keyframes opacity {
+  50% {
+    opacity: 0;
+  }
+}
+
+.row {
+  justify-content: center;
+}
+
+.flex-fil-ariane {
+  display: flex;
+  gap: 1%;
+}
+
+.titre-vin {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.fil-txt-fin {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  gap: 1%;
+}
+
+.fil-txt-gras {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.fil-ariane {
+  border-radius: 32px;
+  border: 1px solid #000;
+  background: #fff;
+  margin-left: 4%;
+  margin-right: 4%;
+  align-items: center;
+}
+
+.txt-gras-infos {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.txt-fin-infos {
+  color: #000;
+  text-align: justify;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 14px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-txt-gras-fin {
+  display: flex;
+  gap: 50%;
+}
+
+.underline {
+  background-color: #000;
+  height: 1px;
+  margin-bottom: 10%;
+}
+
+.type-de-vin {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+}
+
+.bouton-commander {
+  display: flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #c29076;
+  background: #fff;
+  color: #c29076;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  margin-top: 10%;
+}
+
+.degustation {
+  background-image: url(/images/img-background-degustation.png);
+  background-size: cover;
+  aspect-ratio: 32/13;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+}
+
+.titre-card-degustation {
+  color: #3d4335;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.txt-degustation {
+  color: #3d4335;
+  text-align: justify;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 15px;
+  font-weight: 400;
+  padding: 10%;
+  align-self: stretch;
+}
+
+.bouton-degustation {
+  display: flex;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 70px;
+  border: 1px solid #551c51;
+  background: #fff;
+  color: #551c51;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+}
+
+.logo-footer {
+  max-width: 60%;
+}
+
+.information-contact-titre {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.underline {
+  background-color: #000;
+  height: 1px;
+}
+
+.sous-titre {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sous-sous-titre {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.infos-footer {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lien-localiser {
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+}
+
+.logos-adresses {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-gault {
+  max-width: 70%;
+  padding-top: 10%;
+}
+
+.texte-grisé-footer {
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.conditions-general-underline {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.ligne-texte-2024 {
+  color: #000;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.droit-ligne-grisé {
+  color: #b9b7b1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.autorisations-ligne-vigne {
+  display: flex;
+  gap: 2%;
+}
+
+.condition-general-vente {
+  color: #b9b7b1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
+.newsletter-grisé {
+  color: #a1a1a1;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bouton-mail-inscription {
+  display: flex;
+}
+.mail {
+  display: flex;
+  width: 141px;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #b9b7b1;
+  color: #b9b7b1;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+
+.inscription {
+  display: flex;
+  width: 135px;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 70px 70px 0px;
+  background: #551c51;
+  color: #fff;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+}
+
+.logos-reseaux {
+  display: flex;
+  gap: 20%;
+  max-width: 12%;
+}
+
+.chiffres {
+  color: #fff;
+  text-align: center;
+  font-family: "Adelle Sans Devanagari";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  border-radius: 70px;
+  background: #b9b7b1;
+  display: flex;
+  width: 140px;
+  padding: 10px 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-numeros {
+  display: flex;
+  gap: 25%;
+}
+
+.footer {
+  background: #fff;
+}
+
+.underline-footer {
+  border: 1px solid #c29076;
+  width: 100%;
+}
