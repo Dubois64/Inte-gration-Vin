@@ -202,6 +202,7 @@ video {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  padding-top: 60%;
 }
 
 .texte-philosophie {
@@ -212,6 +213,7 @@ video {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 5%;
 }
 
 .bouton-philosophie {
@@ -512,4 +514,15 @@ video {
 
 .img-pattern-fond {
   background-image: url(/images/background-pattern.png);
+}
+
+.philosophie-card {
+  background-image: url(/images/background-pattern.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  height: 567px;
 }
