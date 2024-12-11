@@ -134,10 +134,7 @@ video {
   text-underline-position: from-font;
   text-align: center;
   animation-duration: 2s;
-  display: flex;
-  flex-direction: column;
 }
-
 @keyframes opacity {
   50% {
     opacity: 0;
