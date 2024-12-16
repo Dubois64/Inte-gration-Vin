@@ -452,11 +452,9 @@ video {
 
 .footer {
   background: #fff;
-}
-
-.underline-footer {
-  border: 1px solid #c29076;
-  width: 100%;
+  border: #c29076;
+  border: 2px solid #c29076;
+  margin-top: 10%;
 }
 
 .vente-degustation {
@@ -579,4 +577,13 @@ video {
 .background-color-white {
   background-color: white;
   padding-bottom: 4%;
+}
+
+.card-philosophie-image-feuille {
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.lumiere-terroir-card {
+  padding-top: 10%;
 }

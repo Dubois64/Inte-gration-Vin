@@ -10,6 +10,7 @@
   padding-bottom: 12px;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
+  /* couleur bloc  */
 }
 
 ​ * {
@@ -497,10 +498,20 @@ video {
 }
 
 .footer {
-  background: #fff;
+  background: #f7f6f3;
+  border: 2px solid #c29076;
+  margin-top: 10%;
 }
 
 .underline-footer {
   border: 1px solid #c29076;
   width: 100%;
+}
+
+.img-degustation {
+  max-width: 100%;
+  background-size: cover;
+  background-image: url(/images/Image\ degustation\ vin.png);
+  background-size: cover;
+  aspect-ratio: 32/13;
 }
