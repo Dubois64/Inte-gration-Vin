@@ -221,6 +221,14 @@ video {
   align-items: center;
   justify-content: center;
   display: inline-flex;
+  transition-property: color;
+  transition-duration: 0.7s;
+  transition-delay: 0.2s;
+}
+
+.bouton-vigneronne:hover {
+  color: white;
+  background: #bd972d;
 }
 
 .logo-footer {
@@ -527,8 +535,15 @@ video {
   margin-left: 40%;
   margin-right: 50%;
   color: #551c51;
+  transition-property: color;
+  transition-duration: 0.7s;
+  transition-delay: 0.2s;
 }
 
+.bouton-vin:hover {
+  color: white;
+  background-color: #551c51;
+}
 .pattern-img {
   position: absolute;
   z-index: 1;
