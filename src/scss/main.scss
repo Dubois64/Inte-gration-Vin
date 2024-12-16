@@ -485,6 +485,7 @@ video {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-top: 10%;
 }
 
 .Vin-détails {
@@ -497,7 +498,6 @@ video {
 .infos-lumière-de-terroir {
   display: inline-flex;
   align-items: center;
-
   color: #000;
   text-align: center;
   font-family: "Adelle Sans Devanagari";
@@ -517,8 +517,7 @@ video {
   border: 1px solid #551c51;
   background: rgba(85, 28, 81, 0.2);
   font-family: "Adelle Sans Devanagari";
-  margin-top: 60%;
-  margin-left: 50%;
+  margin-left: 40%;
   margin-right: 50%;
   color: #551c51;
 }
