@@ -175,6 +175,13 @@ video {
   font-family: "Adelle Sans Devanagari";
   color: #6e8c42;
   margin-left: 8%;
+  transition-property: color;
+  transition-duration: 0.7s;
+  transition-delay: 0.2s;
+}
+.bouton-philosophie:hover {
+  color: #fff;
+  background: #6e8c42;
 }
 
 .card-vigneronne {
