@@ -235,8 +235,14 @@ video {
   font-family: "Adelle Sans Devanagari";
   font-size: 16px;
   margin-top: 10%;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
 }
-
+.bouton-commander:hover {
+  color: white;
+  background-color: #c29076;
+}
 .degustation {
   background-image: url(/images/img-background-degustation.png);
   background-size: cover;
@@ -280,6 +286,14 @@ video {
   text-align: center;
   font-family: "Adelle Sans Devanagari";
   font-size: 16px;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-delay: 0.2s;
+}
+
+.bouton-degustation:hover {
+  color: white;
+  background-color: #551c51;
 }
 
 .logo-footer {
