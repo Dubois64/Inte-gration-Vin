@@ -239,6 +239,7 @@ video {
   transition-property: color;
   transition-duration: 0.5s;
   transition-delay: 0.2s;
+  margin: 5px;
 }
 .bouton-commander:hover {
   color: white;
@@ -514,4 +515,9 @@ video {
   background-image: url(/images/Image\ degustation\ vin.png);
   background-size: cover;
   aspect-ratio: 32/13;
+}
+
+.logo-bouton {
+  display: flex;
+  gap: 30%;
 }
