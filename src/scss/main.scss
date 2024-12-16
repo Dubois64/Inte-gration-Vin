@@ -189,7 +189,6 @@ video {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin: 10%;
 }
 
 .texte-vigneronne {
@@ -447,6 +446,13 @@ video {
 
 .img-pattern-fond {
   background-image: url(/images/background-pattern.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  height: 567px;
 }
 
 .philosophie-card {
