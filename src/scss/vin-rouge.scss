@@ -248,6 +248,15 @@ video {
   gap: 22px;
 }
 
+.img-degustation {
+  max-width: 100%;
+  background-size: cover;
+  background-image: url(/images/Image\ degustation\ vin.png);
+  background-size: cover;
+  aspect-ratio: 32/13;
+  margin: 1%;
+}
+
 .titre-card-degustation {
   color: #3d4335;
   text-align: center;
@@ -485,10 +494,11 @@ video {
 
 .footer {
   background: #fff;
+  border: 2px solid #c29076;
+  background-color: #f7f6f3;
 }
 
 .underline-footer {
-  border: 1px solid #c29076;
   width: 100%;
 }
 
