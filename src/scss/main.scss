@@ -96,13 +96,20 @@ video {
   text-underline-offset: auto;
   text-underline-position: from-font;
   text-align: center;
-  padding-top: 16%;
+  position: relative; /* Permet de positionner le menu */
+  cursor: pointer;
+  top: 30px;
 }
 
 .menu-langue:hover {
-  transform: translateY(-10%);
+  opacity: 1; /* Rend le menu visible */
+  visibility: visible; /* Rend le menu interactif */
 }
 
+.menu-langues:hover .animation-langue {
+  opacity: 1;
+  visibility: visible;
+}
 .bouton {
   display: inline-flex;
   padding: 10px 25px;
@@ -146,24 +153,15 @@ video {
   text-underline-offset: auto;
   text-underline-position: from-font;
   text-align: center;
-  animation-duration: 2s;
-  transition: transform 0.4s;
-  animation-name: changeOpacity;
-  animation-duration: 3s;
+
+  top: 30px;
 }
 
 .animation-langue:hover {
-  transform: translateY(-10%);
+  opacity: 1; /* Rend le menu visible */
+  visibility: visible; /* Rend le menu interactif */
 }
-@keyframes changeOpacity {
-  from {
-    width: 0%;
-  }
 
-  to {
-    width: 100%;
-  }
-}
 .philosophie {
   color: #6e8c42;
   text-align: center;
@@ -557,6 +555,7 @@ video {
   margin-right: 50%;
   color: #551c51;
   transition-property: color;
+  text-decoration: none;
   transition-duration: 0.7s;
   transition-delay: 0.2s;
 }
