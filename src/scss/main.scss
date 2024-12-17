@@ -106,10 +106,6 @@ video {
   visibility: visible; /* Rend le menu interactif */
 }
 
-.menu-langues:hover .animation-langue {
-  opacity: 1;
-  visibility: visible;
-}
 .bouton {
   display: inline-flex;
   padding: 10px 25px;
@@ -153,7 +149,6 @@ video {
   text-underline-offset: auto;
   text-underline-position: from-font;
   text-align: center;
-
   top: 30px;
 }
 
