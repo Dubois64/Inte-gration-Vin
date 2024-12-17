@@ -237,9 +237,9 @@ video {
   font-size: 16px;
   margin-top: 10%;
   transition-property: color;
+
   transition-duration: 0.5s;
   transition-delay: 0.2s;
-  margin: 5px;
 }
 .bouton-commander:hover {
   color: white;
@@ -288,6 +288,7 @@ video {
   text-align: center;
   font-family: "Adelle Sans Devanagari";
   font-size: 16px;
+  margin-bottom: 5%;
   transition-property: color;
   transition-duration: 0.5s;
   transition-delay: 0.2s;
@@ -520,4 +521,10 @@ video {
 .logo-bouton {
   display: flex;
   gap: 30%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.logo-bio {
+  margin-top: 10%;
 }
